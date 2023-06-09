@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let option;
+        for (option in navigator){
+            document.write(option+': ' + navigator[option]+'<br/>');
+        }
+            function userDetails(){
+               document.write("<br><br>Название Браузера: "+ navigator.userAgent+"<br/>")
+               document.write("Название Язык Браузера: "+ navigator.userlanguage+"<br/>")
+               document.write("Название ОС: "+ navigator.oscpu+"<br/>")
+               document.write("Включины ли куки: "+ navigator.cookieEnabled+"<br/>")
+               document.write("Пидключён ли интернет: "+ navigator.nLine+"<br/>")
+            }
+        userDetails()
+    </script>
+</body>
+</html>

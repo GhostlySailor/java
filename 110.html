@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let mas = new Array("канада","россия","америка");
+        let das = new Array(10,20,30);
+        document.write("Страны: ");
+        function showElement()
+        {
+            for(i=0;i<3;i++)
+            document.writeln(mas[i])
+        }
+        
+        function bruh()
+        {
+          for(let n in das)
+            document.writeln(das[n])
+        }
+        showElement()
+        document.write("<br>Население: ")
+        bruh()
+    </script>
+</body>
+</html>

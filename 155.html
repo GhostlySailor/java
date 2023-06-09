@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Car (name, model, color){
+            this.name = name;
+            this.model = model;
+            this.color = color;
+        }
+        let myCar = new Car;
+        myCar.name = "Мерседес"
+        myCar.model = "600"
+        myCar.color = "Gray"
+        Car.prototype.owner = "Гриша"
+        alert(myCar.name+ " " +myCar.model+" "+ myCar.owner)
+    </script>
+</body>
+</html>
